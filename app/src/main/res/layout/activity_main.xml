@@ -13,6 +13,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/board"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,26 +24,37 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <Button
-                android:id="@+id/button1"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="1"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
 
-            <Button
-                android:id="@+id/button2"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="2"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
 
-            <Button
-                android:id="@+id/button3"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="3"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
+
+
         </TableRow>
 
         <TableRow
@@ -50,26 +62,35 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <Button
-                android:id="@+id/button4"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="4"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
 
-            <Button
-                android:id="@+id/button5"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="5"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
 
-            <Button
-                android:id="@+id/button6"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="6"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
         </TableRow>
 
         <TableRow
@@ -77,26 +98,37 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <Button
-                android:id="@+id/button7"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="7"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"/>
 
-            <Button
-                android:id="@+id/button8"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="8"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"
+                />
 
-            <Button
-                android:id="@+id/button9"
+            <ImageView
+                android:layout_margin="4dp"
+                android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:tag="9"
+                android:onClick="clickImage"
+                android:src="@drawable/empty"
+                />
         </TableRow>
 
     </TableLayout>
